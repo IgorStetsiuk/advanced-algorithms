@@ -1,0 +1,12 @@
+# IDE ignores
+.idea/
+.vscode/
+*.iml
+*.sublime*
+
+# common ignores
+node_modules
+*.log
+*.log.*
+.DS_STORE
+._*
