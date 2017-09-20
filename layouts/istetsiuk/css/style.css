@@ -1,50 +1,78 @@
-*,
+@font-face {
+    font-family: Inconsolata;
+    src: url(../fonts/Inconsolata.otf);
+}
+
+*, ¡
 *:before,
 *:after {
     box-sizing: border-box;
 }
+
 a {
+    color: #626262;
     text-decoration: none;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-body{
+figure {
+    margin: 0;
+}
+
+body {
     font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
 
 }
 
-.container{
+.container {
     max-width: 1060px;
     margin: 0 auto;
-    /*height: 100px;*/
     overflow: hidden;
 }
+
 header {
     padding: 40px 0;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 
 }
-.logo{
-    flex: 1;
+
+.logo {
+    flex: 1;;
 }
+
+.logo a{
+    padding: 15px 15px 15px 0;
+    font-family: Inconsolata, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+
+}
+
 .top-nav {
     display: flex;
     justify-content: space-around;
     list-style: none;
 
 }
-.top-nav li{
+
+.top-nav li {
     display: flex;
     margin: 0 30px;
 }
-.top-nav li:last-child{
+
+.top-nav li:last-child {
     margin-right: 0;
 }
 
@@ -53,6 +81,69 @@ header .container{
     padding: 20px;
     text-transform: uppercase;
     font-size: 16px;
-    color: #626262;
 
+}
+.top-nav li a:hover{
+    color:#b4ad9e;
+}
+
+.banner {
+    margin-bottom: 100px;
+}
+.photodiary {
+    margin-bottom: 130px;
+}
+.photodiary .container , .post-list .container{
+    padding: 0 70px;
+}
+
+.photodiary-title {
+    font-size: 30px;
+}
+
+.photodiary-post-link {
+    padding: 10px 10px 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.photodiary-post-link:hover{
+    color: #626262;
+}
+.photodiary-post span {
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.photodiary-text {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.post-list .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    flex: 1 1 420px;
+    margin-bottom: 130px;
+}
+
+.post-item p{
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.post-item h2{
+    font-size: 30px;
 }
