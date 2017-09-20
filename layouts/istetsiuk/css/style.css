@@ -18,6 +18,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 figure {
     margin: 0;
 }
@@ -51,7 +52,7 @@ header .container {
     flex: 1;;
 }
 
-.logo a{
+.logo a {
     padding: 15px 15px 15px 0;
     font-family: Inconsolata, sans-serif;
     text-transform: uppercase;
@@ -83,17 +84,20 @@ header .container {
     font-size: 16px;
 
 }
-.top-nav li a:hover{
-    color:#b4ad9e;
+
+.top-nav li a:hover {
+    color: #b4ad9e;
 }
 
 .banner {
     margin-bottom: 100px;
 }
+
 .photodiary {
     margin-bottom: 130px;
 }
-.photodiary .container , .post-list .container{
+
+.photodiary .container, .post-list .container {
     padding: 0 70px;
 }
 
@@ -109,9 +113,11 @@ header .container {
     cursor: pointer;
 
 }
-.photodiary-post-link:hover{
+
+.photodiary-post-link:hover {
     color: #626262;
 }
+
 .photodiary-post span {
     color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
@@ -123,7 +129,7 @@ header .container {
     font-size: 16px;
 }
 
-.post-list{
+.post-list {
     position: relative;
 }
 
@@ -141,8 +147,9 @@ header .container {
     flex: 1 1 420px;
     margin-bottom: 130px;
 }
-.post-list button{
-    width:165px;
+
+.post-list button {
+    width: 165px;
     height: 60px;
     margin: 0 auto;
     background: #ffffff;
@@ -154,14 +161,15 @@ header .container {
     cursor: pointer;
 }
 
-.post-item p{
+.post-item p {
     margin-top: 30px;
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
     text-transform: uppercase;
     font-weight: 300;
 }
-.post-item h2{
+
+.post-item h2 {
     font-size: 30px;
 }
 
@@ -170,24 +178,23 @@ header .container {
     flex-direction: column;
     align-items: center;
     min-height: 300px;
-    padding:70px 0;
+    padding: 70px 0;
     margin-bottom: 130px;
     background: #f0f0f0;
-
-
 }
-.signup span {
 
+.signup span {
     font-size: 30px;
     color: #333333;
     letter-spacing: 1px;
 }
+
 .signup-form {
     margin-top: 100px;
     position: relative;
 }
 
-.signup-form input{
+.signup-form input {
     width: 100%;
     font-size: 14px;
     border: none;
@@ -196,44 +203,49 @@ header .container {
     padding-bottom: 10px;
     outline: none;
 }
-.signup-form button{
+
+.signup-form button {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     width: 32px;
     height: 17px;
-    border:none;
+    border: none;
     outline: none;
-    background:url(../img/icons/send-icon.png);
+    background: url(../img/icons/send-icon.png);
 }
 
 ::-webkit-input-placeholder { /* Chrome */
-    color:#626262;
-}
-:-ms-input-placeholder { /* IE 10+ */
-    color:#626262;
-}
-::-moz-placeholder { /* Firefox 19+ */
-    color:#626262;
-    opacity: 1;
-}
-:-moz-placeholder { /* Firefox 4 - 18 */
-    color:#626262;
-    opacity: 1;
-}
-footer{
-    display: flex;
-    align-items: center;
-    margin-top: 130px;
-    min-height: 150px;
-    background: #f0f0f0;
+    color: #626262;
 }
 
-footer .container{
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    padding: 0 70px;
+:-ms-input-placeholder { /* IE 10+ */
+    color: #626262;
 }
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #626262;
+    opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #626262;
+    opacity: 1;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 44px 0;
+}
+
+footer .container {
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+}
+
 footer a {
+    font-weight: 600;
     padding: 5px;
+    color: #000000;
 }
