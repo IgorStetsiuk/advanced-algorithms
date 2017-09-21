@@ -19,8 +19,25 @@ ul {
     padding: 0;
 }
 
+h2{
+    font-size:30px;
+}
 figure {
     margin: 0;
+}
+
+
+figure p {
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+    line-height: 1.7;
 }
 
 body {
@@ -89,12 +106,8 @@ header .container {
     color: #b4ad9e;
 }
 
-.banner {
+.banner, .photodiary {
     margin-bottom: 100px;
-}
-
-.photodiary {
-    margin-bottom: 130px;
 }
 
 .photodiary .container, .post-list .container {
@@ -106,7 +119,6 @@ header .container {
 }
 
 .photodiary-post-link {
-    padding: 10px 10px 10px 0;
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
     text-transform: uppercase;
@@ -124,13 +136,8 @@ header .container {
     text-transform: uppercase;
 }
 
-.photodiary-text {
+.photodiary p {
     margin-bottom: 50px;
-    font-size: 16px;
-}
-
-.post-list {
-    position: relative;
 }
 
 .post-list .container {
@@ -148,6 +155,10 @@ header .container {
     margin-bottom: 130px;
 }
 
+.button-wrap {
+    text-align: center;
+}
+
 .post-list button {
     width: 165px;
     height: 60px;
@@ -161,17 +172,7 @@ header .container {
     cursor: pointer;
 }
 
-.post-item p {
-    margin-top: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-weight: 300;
-}
 
-.post-item h2 {
-    font-size: 30px;
-}
 
 .signup {
     display: flex;
@@ -183,19 +184,23 @@ header .container {
     background: #f0f0f0;
 }
 
-.signup span {
-    font-size: 30px;
+.signup h2 {
+    font-weight: normal;
     color: #333333;
     letter-spacing: 1px;
+    margin: 0;
+
 }
 
 .signup-form {
     margin-top: 100px;
-    position: relative;
+
 }
 
 .signup-form input {
-    width: 100%;
+    display: block;
+    float: left;
+    width: 90%;
     font-size: 14px;
     border: none;
     border-bottom: 1px solid black;
@@ -205,14 +210,15 @@ header .container {
 }
 
 .signup-form button {
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: block;
     width: 32px;
     height: 17px;
     border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 26px;
     outline: none;
-    background: url(../img/icons/send-icon.png);
+    background: url(../img/icons/send-icon.png) center no-repeat;
+    cursor: pointer;
 }
 
 ::-webkit-input-placeholder { /* Chrome */
@@ -234,8 +240,9 @@ header .container {
 }
 
 footer {
-    background: #f0f0f0;
+    margin-top:100px;
     padding: 44px 0;
+    background: #f0f0f0;
 }
 
 footer .container {
@@ -246,6 +253,10 @@ footer .container {
 
 footer a {
     font-weight: 600;
-    padding: 5px;
+    margin: 5px;
     color: #000000;
+}
+
+footer a:hover {
+    color: #b4ad9e;
 }
