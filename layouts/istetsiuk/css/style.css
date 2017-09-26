@@ -61,6 +61,9 @@ body {
     font-size: 14px;
 
 }
+section {
+    margin-bottom: 130px;
+}
 
 .container {
     max-width: 1060px;
@@ -121,9 +124,7 @@ header .container {
     color: #b4ad9e;
 }
 
-.banner, .photodiary {
-    margin-bottom: 100px;
-}
+
 .banner {
     text-align: center;
 }
@@ -137,7 +138,7 @@ header .container {
     width: 100%;
 }
 
-.photodiary .container, .post-list .container {
+.photodiary .container {
     padding: 0 70px;
 }
 
@@ -167,18 +168,22 @@ header .container {
     margin-bottom: 50px;
 }
 
-.post-list .container {
+
+.post-list {
+    max-width: 920px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin: auto;
 
 }
 
+.posts-section {
+    margin-bottom: 0;
+}
+
 .post-item {
-    display: flex;
-    flex-direction: column;
     max-width: 420px;
-    flex: 1 1 420px;
     margin-bottom: 130px;
 }
 
@@ -186,7 +191,7 @@ header .container {
     text-align: center;
 }
 
-.post-list button {
+ .button-wrap button {
     width: 165px;
     height: 60px;
     margin: 0 auto;
@@ -266,7 +271,6 @@ header .container {
 }
 
 footer {
-    margin-top: 100px;
     padding: 44px 0;
     background: #f0f0f0;
 }
