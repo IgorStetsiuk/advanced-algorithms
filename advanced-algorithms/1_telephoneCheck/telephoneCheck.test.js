@@ -1,6 +1,6 @@
 import {telephoneCheck} from "./telephoneCheck";
 
-describe('suit isBoolean', () => {
+describe('Suit telephone check ', () => {
 
     test('TEST_1 telephoneCheck("555-555-5555") should return a boolean.\n', () => {
         expect(typeof telephoneCheck("555-555-5555")).toBe('boolean');
